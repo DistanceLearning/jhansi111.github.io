@@ -1,0 +1,157 @@
+
+body {
+	background: url(https://static1.squarespace.com/static/53ff083fe4b06d598893dcdf/53ff0e11e4b075777f4f4f0d/54675930e4b0c5b33f8b422b/1450008344683/Mirror+Houses+Slide+front.jpg) no-repeat;
+		background-size: cover;
+	height:100vh;
+	background-position: center;
+		position: relative;
+	
+font-family: 'Flamenco', cursive;
+font-size: 18px;
+overflow-x: hidden;
+}
+
+/* Utility Classes
+  .img-responsive {
+  	max-width: 100%;
+  } */
+  .row {
+  	max-width:1180px;
+  	margin: 0 auto;
+  }
+.logo {
+	height: 90px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+.main_nav {
+	float: right;
+	margin-top: 60px;
+}
+.main_nav li{
+display: inline-block;
+list-style: none;
+margin-left: 40px;
+}
+.main_nav  li a{
+	padding: 0px 0;
+	color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 90%;
+}
+.main_nav  li a:hover{
+	border-bottom: 2px solid grey
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.one  {
+	color: white;
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+h1,p {
+	
+font-weight: lighter;
+}
+.view {
+	color:lightgrey;
+	margin-left: 0rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+.colorchange{
+	animation: colorchangehouse 1s infinite;
+}
+@keyframes colorchangehouse{
+	0%{color:white;}
+	25%{color: black}
+	50%{color: white}
+	100%{color: black}
+}
+.icon {
+	display: none;
+}
+.form_code {
+	text-align: left;
+}
+.form_code .two {
+	display:inline-block;
+    width: 45%;
+	margin-left: 5px;
+	border-bottom-left-radius: .3rem;
+	padding:.6rem;
+	border: none;
+	outline: none;
+}
+.form_code button {
+	margin-left: 5px;
+	width: 10%;
+text-align: left;
+background-color: powderblue;
+color:white;
+padding:.6rem;
+border-bottom-right-radius:.3rem; 
+	border:none;
+}
+.form_code button:hover{
+	background-color: blue
+}
+
+/*Product Section*/
+
+/*.product {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*.prod {
+	float: left;
+	width:32%;
+	margin-left: 1rem;
+}
+
+.prod:first-of-type {
+	margin-left: 0;
+}*/
+
+@media  screen and (max-width: 1220px) {
+	.one{
+		width: 100%;
+	   h1{padding: 2px;}
+	}
+}
+@media  screen and (max-width: 559px) {
+ h1{font-size: 150%;}
+ .main_nav{display: none;}
+.form_code .two {
+	display:block;}
+	.form_code button {
+	width: 20%;}
+
+	.icon {
+	display: inline-block;
+    color: white;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+} {float: left;}
+.main_nav {float: left;}
+.main_nav li {
+	
+	display: block;
+	margin-top: 10px;
+}
+}
+@media  screen and (max-width: 397px) {
+ h1{font-size: 120%;}
+.main_nav{display: none;}
+
+}
