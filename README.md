@@ -1,2 +1,2 @@
 # jhansi111.github.io
-My New Project
+House Searching static page and is responsive in every device.
